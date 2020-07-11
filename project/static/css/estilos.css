@@ -1,0 +1,19 @@
+.home_img{
+    height: 400px;
+    text-align: center;
+    
+}
+
+.home_img img{
+    /* object-fit: cover; */
+    height: 400px;
+}
+
+.frase_descripcion{
+    text-align: center;
+}
+
+.frase_bienvenida{
+    text-align: center;
+    font-weight: bold;
+}
