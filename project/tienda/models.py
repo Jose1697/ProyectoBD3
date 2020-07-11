@@ -28,3 +28,4 @@ class Vendedor(models.Model):
 #Delegada sdfsdfsdfsdfsefdsefsdfsef
 #BEELMUTTTTTTTTTTTT
 #wfwefwefefe
+#51 goles en fifa xdxdxdxdxdxdx
