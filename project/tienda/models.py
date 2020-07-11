@@ -16,3 +16,7 @@ class  Movil(models.Model):
 class Vendedor(models.Model):
     nombres = models.CharField(max_length=20, null=True)
     apellidos = models.CharField(max_length=20, null=True)
+
+
+
+#BERNILLA SAD OLVIDALA XD
