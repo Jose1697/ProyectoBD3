@@ -20,7 +20,8 @@ class Vendedor(models.Model):
 
 
 #BERNILLA SAD OLVIDALA XD
-#gazaso
+#gazaso54156465
 #ga
 #hola
 #guilermo
+#nunca estaras con ella
