@@ -25,3 +25,4 @@ class Vendedor(models.Model):
 #hola
 #guilermo
 #nunca estaras con ella
+#Delegada sdfsdfsdfsdfsefdsefsdfsef
