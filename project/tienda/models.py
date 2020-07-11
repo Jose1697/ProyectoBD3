@@ -26,3 +26,4 @@ class Vendedor(models.Model):
 #guilermo
 #nunca estaras con ella
 #Delegada sdfsdfsdfsdfsefdsefsdfsef
+#BEELMUTTTTTTTTTTTT
