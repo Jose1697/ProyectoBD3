@@ -22,3 +22,4 @@ class Vendedor(models.Model):
 #BERNILLA SAD OLVIDALA XD
 #gazaso
 #ga
+#hola
