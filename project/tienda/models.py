@@ -23,3 +23,4 @@ class Vendedor(models.Model):
 #gazaso
 #ga
 #hola
+#guilermo
