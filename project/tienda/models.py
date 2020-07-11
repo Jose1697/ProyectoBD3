@@ -3,7 +3,7 @@ from django.db import models
 
 
 class Cliente(models.Model):
-    nombres = models.CharField(max_length=20, null=True),
+    nombres = models.CharField(max_length=20, null=True)
     apellidos = models.CharField(max_length=20, null=True)
 
 class  Movil(models.Model):
