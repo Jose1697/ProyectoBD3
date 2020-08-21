@@ -1,19 +1,13 @@
-.home_img{
-    height: 400px;
-    text-align: center;
-    
+.carousel-inner img{
+    height: calc(100vh - 124px);
+
 }
 
-.home_img img{
-    /* object-fit: cover; */
-    height: 400px;
+.footer{
+    height: 60px;
+    background: black;
+    color: white;
+    align-items: center;
+    display: flex;
 }
 
-.frase_descripcion{
-    text-align: center;
-}
-
-.frase_bienvenida{
-    text-align: center;
-    font-weight: bold;
-}
