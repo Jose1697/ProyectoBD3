@@ -62,9 +62,10 @@ class SignupForm(forms.Form):
 		return data
 
 	def save(self):
-		"""Crear user y profile"""
+		"""Crear user"""
 		data = self.cleaned_data
 		"""Password confirmation no sirve para guardar 
 			asi que lo sacamos"""
 		data.pop('password_confirmation')
 		user = User.objects.create_user(**data)
+		
