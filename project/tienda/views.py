@@ -43,3 +43,5 @@ def signup(request):
           template_name = 'signup.html',
           context = {'form': form}
      )
+def reclamo(request):
+     return render(request,'reclamo.html')     

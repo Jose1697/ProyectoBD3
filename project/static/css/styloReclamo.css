@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 11px; font-family: inherit}
+:focus {outline: 0}
+body {color: black; background: white}
+ol, ul {list-style: none}
+table {border-collapse: collapse; border-spacing: 0}
+caption, th, td {text-align: left; font-weight: normal}
+blockquote:before, blockquote:after, q:before, q:after {content: ""}
+blockquote, q {quotes: "" ""}
+a {text-decoration:none}
+strong{font-weight:bold}
+.clear{
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+	height:0;
+	}
+
+body {
+	background:url(/img/body-bgnd.jpg) repeat-x top #323232;
+	font-size:11px;
+	position:relative;
+	z-index:1;
+	}
+
+
+
+#container {
+	width:980px;/*900px*/
+	margin:0 auto;
+    background:#fff;
+	min-height:900px;
+}
+
+
+
+div.footer ul.links li a{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#FFF;
+}
+div.footer p.legal{
+	font:11px Arial, Helvetica, sans-serif;
+	color:#0092CF;
+	float:left;
+	width:980px;
+	text-align:center;
+	margin:7px 0 0;
+}
+
+#container.home{background-color:#255F78;}
+div#pWrapper{width:958px;border:1px solid #fff;margin:0 auto;background-color:#fff;line-height:15px;color:#242424;font-family:Arial,Helvetica,sans-serif;min-height:800px}div#pWrapper a{color:#00abe3;text-decoration:none;clear:both;cursor:pointer}
+	div#pWrapper div#pHead{
+		width:941px;height:46px;
+		background-image:url(/img/bpHead.jpg);
+		color:#fff;padding:0 0 0 17px;
+		position:relative;height:68px}
+   div#pWrapper 
+   div#pHead h1{font-weight:bold;font-size:24px;line-height:68px}
+   div#pWrapper div#pHead div#pCTAHead{height:52px;position:absolute;top:8px;font-size:12px;line-height:12px;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;font-weight:bold;color:#fff}div#pWrapper div#pHead div#pCTAHead big{font-family:Arial,Helvetica,sans-serif;color:#ffea00;font-size:14px;line-height:14px;font-weight:bold;position:absolute;top:11px;left:9px}
+   div#pWrapper div#pHead div#pCTAHead small{position:absolute;top:13px;left:145px}
+   div#pWrapper div#pHead div#pCTAHead ul{position:absolute;top:28px;left:10px}
+   div#pWrapper div#pHead div#pCTAHead ul li{margin:0 11px 0 0;float:left}
+   
+   div#pHead div#pCTAHead ul li.chat{margin:0 18px 0 0}
+   div#pWrapper div#pHead div#pCTAHead ul li.email{margin:0}
+   div#pWrapper div#pHead div#pCTAHead ul li a{color:#fff;background-image:url(/img/ctaBullets.png);background-repeat:no-repeat;height:14px;display:block;padding:2px 0 0 18px}
+   div#pWrapper div#pHead div#pCTAHead ul li.call a{background-position:0px 4px}
+   div#pWrapper div#pHead div#pCTAHead ul li.chat a{background-position:0px -22px;padding:2px 0 0 14px}
+   div#pWrapper div#pHead div#pCTAHead ul li.email a{background-position:0px -44px}
+   div#pWrapper div#pHead div#pCTAHead ul li a:hover{text-decoration:underline}
+   div#pWrapper div#pFoot{padding:20px 0 20px 17px;position:relative;width:941px}
+   div#pWrapper div#pFoot div#pCTAFoot{height:70px;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#333;font-size:12px;line-height:12px;font-weight:bold;position:relative}
+   div#pWrapper div#pFoot div#pCTAFoot big{font-family:Arial,Helvetica,sans-serif;color:#0076bf;font-size:14px;line-height:14px;font-weight:bold;position:absolute;top:15px;left:19px}
+   div#pWrapper div#pFoot div#pCTAFoot small{position:absolute;top:19px;left:152px}
+   div#pWrapper div#pFoot div#pCTAFoot ul{position:absolute;top:37px;left:19px}
+   div#pWrapper div#pFoot div#pCTAFoot ul li{margin:0 11px 0 0;float:left}
+ 
+   div#pWrapper div#pFoot div#pCTAFoot ul li.chat{margin:0 17px 0 0}
+   div#pWrapper div#pFoot div#pCTAFoot ul li.email{margin:0}
+   div#pWrapper div#pFoot div#pCTAFoot ul li a{color:#333;background-image:url(/img/ctaBullets.png);background-repeat:no-repeat;padding:2px 0 0 18px;display:block;height:12px}
+   div#pWrapper div#pFoot div#pCTAFoot ul li a:hover{text-decoration:underline}
+   div#pWrapper div#pFoot div#pCTAFoot ul li.call a{background-position:0px 4px}
+   div#pWrapper div#pFoot div#pCTAFoot ul li.chat a{background-position:0px -22px;padding:2px 0 0 14px}
+   div#pWrapper div#pFoot div#pCTAFoot ul li.email a{background-position:0px -44px}#main-wrapper{padding:28px 29px}#mainly,#mainly-forms{width:624px;border:1px solid #d6d6d6;background:url(/img/bg_beneficios.gif) left bottom repeat-x;padding:20px 17px}#mainly,#mainly-contact,#mainly-forms{color:#333;float:left}#rightCol,#rightCol-contacto{width:220px;float:right}#mainly p,#rightCol p,#rightCol p a,#main-wrapper p,#mainly-contact p,#mainly-forms p,.form-confirm a{font-size:12px}
+   #mainly h2,#mainly-contact h2,#mainly-forms h2{font-size:19px;font-family:"Trebuchet MS",Arial;line-height:38px;font-weight:bold}.intro-list{margin:19px 0 20px;padding-left:13px}.intro-list li{background:url(/img/bullet_arrow.gif) center left no-repeat;font-size:13px;font-weight:bold;height:18px;margin-bottom:12px;padding-left:25px}.bigpadleft{padding-left:48px}.mouse{background:url(/img/icono_mouse.gif) 0 0 no-repeat}a.btn_registrarse{background:url(/img/btn_registrarse.gif) top center no-repeat;height:27px;width:131px;display:block;margin:18px 0 14px 204px;text-indent:-99999px}
+   #mainly p.beneficio-accion{padding-left:13px;margin-top:42px;font-size:13px;font-weight:bold}#ValidationSummary1{background-color:#ffc;padding:14px 0 0 35px;border:solid 1px #ccc;-moz-border-radius:3px;-webkit-border-radius:3px;font-size:12px;margin-bottom:15px;background-image:url(../img/error_icon.gif);background-position:10px 10px;background-repeat:no-repeat;width:611px;line-height:11px}
+   #rightCol .sideCol,#rightCol-contacto .sideCol{background:#fff url(/img/bpUnit.gif) top left repeat-x;border:1px solid #ccc;padding:16px 7px 0 8px;margin-bottom:30px;text-align:center}#rightCol .sideCol h3,#rightCol-contacto .sideCol h3{color:#242424;font-family:"Trebuchet MS",Arial;font-size:18px;font-weight:bold;line-height:20px;margin:0 0 7px;text-align:left}#rightCol .sideCol p{line-height:19px}.promo-photo{margin:0 auto;display:block}#rightCol p a,.form-confirm a{display:block;font-weight:bold;margin:9px 0 18px}div#pWrapper a:hover{text-decoration:underline}.sideCol hr{width:80%;background-color:#ccc;border:none;height:1px}
+   #main-wrapper-contacto{padding:10px 10px 10px 29px}#rightCol-contacto .sideCol{padding:16px 7px 23px 8px;margin-bottom:20px}#mainly-contact,#mainly-forms{width:658px;margin-top:10px}.informacion{background:url(/img/icono_info.gif) 0 0 no-repeat;margin-bottom:22px}#rightCol-contacto .sideCol h3{margin:0 0 8px}#rightCol-contacto .sideCol p{text-align:left;margin-bottom:20px}#rightCol-contacto .sideCol .cta{margin-top:14px}#mainly-contact #mainly h2.noCliente,#mainly-contact #mainly h2.siCliente,#mainly-contact #mainly h2.siClienteGray,#mainly-contact #mainly h2.sistema-reclamos{padding-left:50px;background:url(/img/icono_nocliente.gif) 0 0 no-repeat;height:43px;line-height:34px;padding-left:47px}
+   #mainly-contact #mainly h2.siCliente{background:url(/img/icono_cliente.gif) 0 0 no-repeat}
+   #mainly-contact #mainly h2.siClienteGray{background:url(/img/icono_cliente_gray.gif) 0 0 no-repeat}
+   #mainly-contact #mainly h2.sistema-reclamos{background:url(/img/icono_reclamos.gif) 0 0 no-repeat;margin-top:30px}
+   #mainly-contact ul{margin:9px 0}#mainly-contact ul li{list-style:none;padding-left:10px;font-size:12px;margin-bottom:12px;line-height:18px}#mainly-contact ul li span{font-weight:bold}#mainly-contact ul li span,#mainly-contact ul li a{font-weight:bold;font-size:12px}#mainly-contact ul li span.tels{color:#005299}.client-categories{float:left;width:51%;border-right:1px solid #e6e6e6}.rClient{width:43%;padding:0 0 28px 32px;border:none!important}.proy-com-list li{float:left;margin-right:36px}.Email{background:url(/img/icono_email.gif) 0 0 no-repeat;margin:0 0 6px}
+   #mainly-forms{background:none;width:639px;padding-top:13px;-moz-border-radius:4px;-webkit-border-radius:4px}#mainly-forms input,#mainly-forms select,#mainly-forms textarea{border:1px solid #999;width:300px;padding:2px;height:17px;float:left;margin:0 10px 18px;font-size:12px}#mainly-forms textarea{height:80px;font-family:Arial,Verdana;font-size:12px}#mainly-forms select{height:22px;font-size:12px;width:306px}#mainly-forms label{font-size:12px;width:118px;text-align:right;float:left;line-height:21px}#mainly-forms p.validacion,#mainly-forms p.formato{color:#0076bf;font-size:11px;float:left;line-height:21px}
+   #mainly-forms p.formato{color:#666;margin-bottom:12px;padding-left:129px;width:300px}#mainly-forms input.btn_contactoEnviar{background:url(/img/btn_enviar.gif) top left no-repeat;width:67px;height:28px;float:right;cursor:pointer;color:#fff;line-height:24px;border:none;margin:0 62px 8px 0;font-weight:bold;padding-bottom:5px;font-size:13px}#mainly-forms form#contactoEmail{margin-left:-4px}#mainly-forms p.validez{padding-left:129px;line-height:1;margin-bottom:10px}
+   #mainly-forms input.nro_cliente{margin-bottom:0}#contactoEmail img{position:relative;top:2px}#mainly-forms p.form-confirm{margin-bottom:15px}span.required{background-image:url(/img_argentina/ventasNew/arrow.gif);color:#494949;display:block;float:right;font-family:Arial,Helvetica,sans-serif;font-size:10px;height:16px;line-height:16px;margin:3px 0 0;padding:0 0 0 8px;width:65px;background-repeat:no-repeat;display:inline}div#pWrapper div.phead-v2{background:#032234 url(/img/bg-phead-v2.jpg) no-repeat right top!important;height:75px!important}#pHead ul.submenu{margin:13px 0 0 0;float:left}#pHead ul.submenu li{float:left;color:#fff;margin-right:5px}
+   #pHead ul.submenu li.off{color:#989797}#pHead ul.submenu li a{color:#fff}#pHead ul.submenu li a#home{background:url(/img/icon-home.jpg) no-repeat left top;padding:0 0 5px 18px}div#pWrapper div#pHead h1.reclamos{line-height:38px;font-family:Arial,Helvetica,sans-serif}div#pWrapper h2.reclamos{font-family:Arial,Helvetica,sans-serif;font-size:20px;color:#032234;line-height:22px;background:url(/img/bg-h2-reclamos.jpg) no-repeat left top;padding:10px 0 0 50px;margin-top:15px;float:left}div#pWrapper div.content-form{width:642px;border:#bbb solid 1px;padding:16px 0 40px 32px;margin-top:45px;float:left}
+   div.content-form{margin-bottom:60px}div.content-form p{margin:0 0 25px 6px}div.content-form p,div.content-form label{font-size:12px}div.content-form label{width:110px;float:left;text-align:right;margin-right:13px;margin-bottom:25px;color:#333}div.content-form br{clear:both}div.content-form input.field,div.content-form select,div.content-form textarea{width:302px;border:#bbb solid 1px;font-family:Arial,Helvetica,sans-serif;color:#333;padding:2px 3px;margin-top:-3px;margin-bottom:18px}div.content-form input.codigo{height:30px}div.content-doc{position:relative}div.content-form span.solo-numeros{position:absolute;left:130px;top:22px}
+   div.content-form input.buttons{margin-top:-2px}div.content-form input.generar{margin:0px 0 18px 0}div.content-form input.enviar{background:url(/img/btn_enviar.gif) no-repeat scroll 0 0 transparent;border:medium none;color:#fff;cursor:pointer;font-size:13px;font-weight:bold;height:28px;line-height:24px;margin:0 0 0 357px;padding-bottom:5px;width:67px}div.content-form span{font-size:12px}div.content-form select{width:310px}div.content-form textarea{font-size:12px;height:85px}div.content-form a{font-size:12px;float:right;margin-right:159px;margin-top:8px}div.content-form span.ast{font-weight:bold;color:#0093d0}div.content-form label span{margin-left:3px}div.content-right-reclamos{margin-top:-40px}
+
+
