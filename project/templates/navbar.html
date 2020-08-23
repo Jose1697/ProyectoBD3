@@ -11,7 +11,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-<<<<<<< HEAD
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -31,42 +31,8 @@
                 </li>
            
             </ul>
-        </div>
-=======
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Reclamos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Atención al Cliente</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Contacto</a>
-                    </li>
-                </ul>
-                {% if request.user.username %}
-                <div class="header__menu">
-                    <div class="header__menu--profile">
-                        <p>{{ request.user.username}}</p>
-                        <img  src="{% static 'img/user-icon.png' %}" alt="User">   
-                    </div>
-                    <ul class="opciones">
-                        <li><a href="">Cuenta</a></li>
-                        <li><a href="{% url "logout" %}">Cerrar Sesión</a></li>
-                    </ul>
-                </div>
-                {% else %}
-                    <a href="{% url "login" %}">Iniciar Sesion</a>
-                {% endif %}
-            </div>
->>>>>>> 5f6d00ab1e524935f0a80e716dce38e6002f20d7
+        
+               
         </div>
     </nav>
 </section>
