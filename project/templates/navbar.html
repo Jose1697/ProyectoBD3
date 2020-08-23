@@ -34,11 +34,8 @@
             {% if request.user.username %}
                 <div class="header__menu">
                     <div class="header__menu--profile">
-                        {% if request.user %}
                         <p>{{ request.user.username}}</p>
                         <img  src="{% static 'img/user-icon.png' %}" alt="User">
-                        {% endif %}
-                        <img  src="{% static 'img/user-icon.png' %}" alt="User">   
                     </div>
                     <ul class="opciones">
                         <li><a href="">Cuenta</a></li>
@@ -46,9 +43,9 @@
                         <li><a href="{% url "logout" %}">Cerrar Sesión</a></li>
                     </ul>
                 </div>
-                {% else %}
-                    <a href="{% url "login" %}">Iniciar Sesion</a>
-                {% endif %}
+            {% else %}
+                <a href="{% url "login" %}">Iniciar Sesion</a>
+             {% endif %}
             </div>
         </div>
     </nav>
