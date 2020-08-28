@@ -30,3 +30,4 @@ class Vendedor(models.Model):
 #wfwefwefefe
 #51 goles en fifa xdxdxdxdxdxdx
 #DAYANITA TE AMO BY JOSE LUIS GAAAAAAAAA
+#cambio mio okei
